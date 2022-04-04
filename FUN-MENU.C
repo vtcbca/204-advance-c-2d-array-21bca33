@@ -117,8 +117,15 @@ void main()
 				printf("%d",c);
 			}
 
-			int even (int x, int y)
+			int even (int x)
 			{
+				int i;
+				for(i=2;i<x;i++)
+				{
+					if(i%2==0)
+						printf("\n%d",i);
+				}
+				return(i);
 			}
 
 
